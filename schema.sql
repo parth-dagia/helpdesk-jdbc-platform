@@ -243,3 +243,15 @@ CREATE TABLE `ticket_history` (
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2025-07-27 14:13:14
+
+-- 🌱 Sample Agent
+INSERT INTO agent (name, email, phone_number)
+VALUES ('Agent Smith', 'smith@helpdesk.com', '1234567890');
+
+-- 🗂️ Sample Category
+INSERT INTO category (name, description)
+VALUES ('Login Issue', 'Problems related to user login');
+
+-- 👤 Sample Customer
+INSERT INTO customer (name, phone_number, email)
+VALUES ('Test User', '9876543210', 'testuser@example.com');
